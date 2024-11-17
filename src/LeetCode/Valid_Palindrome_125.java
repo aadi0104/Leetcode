@@ -29,6 +29,6 @@ public class Valid_Palindrome_125 {
 			high--;
 		}
 		return true;
-	}s
+	}
 
 }
