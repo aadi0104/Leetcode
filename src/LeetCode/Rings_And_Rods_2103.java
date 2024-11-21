@@ -44,5 +44,4 @@ public class Rings_And_Rods_2103 {
 		}
 		return count;
 	}
-
 }
