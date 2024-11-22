@@ -1,7 +1,6 @@
 package LeetCode;
 
 public class Detect_Capital_520 {
-
 	public static void main(String[] args) {
 		String s = "USA";
 		boolean ans = Detect_Capital(s);
@@ -38,5 +37,4 @@ public class Detect_Capital_520 {
 			return true;
 		}
 	}
-
 }
