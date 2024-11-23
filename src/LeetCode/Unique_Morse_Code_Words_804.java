@@ -1,5 +1,4 @@
 package LeetCode;
-
 import java.util.Arrays;
 
 public class Unique_Morse_Code_Words_804 {
