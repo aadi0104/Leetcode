@@ -27,5 +27,4 @@ public class Fizz_Buzz_412 {
 		}
 		return list;
 	}
-
 }
