@@ -20,5 +20,4 @@ public class Power_Of_Three_326 {
 		}
 		return Power_Of_Three(n / 3);
 	}
-
 }
