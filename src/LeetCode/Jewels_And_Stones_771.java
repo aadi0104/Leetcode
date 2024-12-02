@@ -27,5 +27,4 @@ public class Jewels_And_Stones_771 {
 		String str = new String(ch);
 		return str;
 	}
-
 }
