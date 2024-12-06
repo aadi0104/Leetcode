@@ -30,5 +30,5 @@ public class Pascals_Triangle_118 {
 		}
 		return list;
 	}
-
+	
 }
