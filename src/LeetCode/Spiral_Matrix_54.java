@@ -42,5 +42,5 @@ public class Spiral_Matrix_54 {
 		}
 		return list;
 	}
-
+	
 }
