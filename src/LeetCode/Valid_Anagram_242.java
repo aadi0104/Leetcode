@@ -36,5 +36,5 @@ public class Valid_Anagram_242 {
 		}
 		return true;
 	}
-	
+
 }
