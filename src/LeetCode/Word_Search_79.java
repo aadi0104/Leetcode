@@ -8,8 +8,8 @@ public class Word_Search_79 {
 
 	public static void main(String[] args) {
 		char[][] board = { { 'A', 'B', 'C', 'E' }, { 'S', 'F', 'C', 'S' }, { 'A', 'D', 'E', 'E' } };
-		String word = "ABCB";
 		int[][] check_board = new int[board.length][board[0].length];
+		String word = "ABCB";
 		for (int i = 0; i < board.length; i++) {
 			for (int j = 0; j < board[0].length; j++) {
 				Word_Search(board, word, i, j, "", check_board);
