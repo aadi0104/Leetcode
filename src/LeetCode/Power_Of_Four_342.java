@@ -20,4 +20,5 @@ public class Power_Of_Four_342 {
 		}
 		return Power_Of_Four(n / 4);
 	}
+	
 }
