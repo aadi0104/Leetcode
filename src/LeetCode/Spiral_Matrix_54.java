@@ -21,7 +21,6 @@ public class Spiral_Matrix_54 {
 		int minC = 0;
 		int maxR = matrix.length - 1;
 		int maxC = matrix[0].length - 1;
-		int total = maxR * maxC;
 		while (list.size() < m * n) {
 			for (int i = minC; i <= maxC && list.size() < m * n; i++) {
 				list.add(matrix[minR][i]);
