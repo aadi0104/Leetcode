@@ -1,9 +1,6 @@
 package LeetCode;
 
-import Class29.Linked_List.Node;
-
 public class Reverse_Linked_List_206 {
-
 	public class ListNode {
 		int val;
 		ListNode next;
@@ -32,14 +29,12 @@ public class Reverse_Linked_List_206 {
 		}
 		ListNode newhead = Reverse_Linked_List(head.next);
 		AddEnd(head);
-        return newhead;
-
+		return newhead;
 	}
 
 	public static void AddEnd(ListNode head) {
-        ListNode front = head.next;
+		ListNode front = head.next;
 		front.next = head;
 		head.next = null;
 	}
-
 }
