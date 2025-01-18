@@ -38,6 +38,12 @@ public class Merge_Two_Sorted_Lists_21 {
 			}
 			temp = temp.next;
 		}
+		if(list1 != null) {
+			temp.next = list1;
+		}
+		if(list2 != null) {
+			temp.next = list2;
+		}
 		return dummy.next;
 	}
 
