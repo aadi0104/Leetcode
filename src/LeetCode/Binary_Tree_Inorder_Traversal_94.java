@@ -37,5 +37,5 @@ public class Binary_Tree_Inorder_Traversal_94 {
 		ans.add(node.val);
 		Binary_Tree_Inorder_Traversal(node.right, ans);
 	}
-
+	
 }
