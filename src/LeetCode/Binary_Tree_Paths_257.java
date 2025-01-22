@@ -42,5 +42,5 @@ public class Binary_Tree_Paths_257 {
 		Binary_Tree_Paths(node.left, temp + "->", ans);
 		Binary_Tree_Paths(node.right, temp + "->", ans);
 	}
-
+	
 }
