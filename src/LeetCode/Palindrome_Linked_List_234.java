@@ -42,5 +42,5 @@ public class Palindrome_Linked_List_234 {
 		}
 		return true;
 	}
-	
+
 }
