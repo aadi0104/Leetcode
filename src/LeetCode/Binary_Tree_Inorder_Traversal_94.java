@@ -23,7 +23,7 @@ public class Binary_Tree_Inorder_Traversal_94 {
 		}
 	}
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		TreeNode root = new TreeNode();
 		List<Integer> ans = new ArrayList<>();
 		Binary_Tree_Inorder_Traversal(root, ans);
