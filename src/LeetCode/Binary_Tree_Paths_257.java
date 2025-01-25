@@ -23,7 +23,7 @@ public class Binary_Tree_Paths_257 {
 		}
 	}
 
-	public static List<String> main(String[] args) {
+	public List<String> main(String[] args) {
 		TreeNode root = new TreeNode();
 		List<String> ans = new ArrayList<>();
 		Binary_Tree_Paths(root, "", ans);
@@ -42,5 +42,5 @@ public class Binary_Tree_Paths_257 {
 		Binary_Tree_Paths(node.left, temp + "->", ans);
 		Binary_Tree_Paths(node.right, temp + "->", ans);
 	}
-	
+
 }
