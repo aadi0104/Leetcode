@@ -23,7 +23,7 @@ public class Even_Odd_Tree_1609 {
 		}
 	}
 
-	public static boolean main(String[] args) {
+	public boolean main(String[] args) {
 		TreeNode root = new TreeNode();
 		return Even_Odd_Tree(root);
 	}
