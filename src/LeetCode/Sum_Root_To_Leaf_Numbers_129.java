@@ -22,29 +22,40 @@ public class Sum_Root_To_Leaf_Numbers_129 {
 		}
 	}
 
-	public static int main(String[] args) {
+	public int main(String[] args) {
 		TreeNode root = new TreeNode();
-		List<Integer> ll = new ArrayList<>();
-		Sum_Root_To_Leaf_Numbers(root, 0, ll);
-		int sum = 0;
-		for (int i : ll) {
-			sum += i;
-		}
-		return sum;
+//		List<Integer> ll = new ArrayList<>();
+//		int sum = 0;
+//		for (int i : ll) {
+//			sum += i;
+//		}
+//		return sum;
+		return Sum_Root_To_Leaf_Numbers(root, 0);
 	}
 
-	public static void Sum_Root_To_Leaf_Numbers(TreeNode node, int num, List<Integer> ll) {
+//	public static void Sum_Root_To_Leaf_Numbers(TreeNode node, int num, List<Integer> ll) {
+//		if (node == null) {
+//			return;
+//		}
+//		num *= 10;
+//		num += node.val;
+//		if (node.left == null && node.right == null) {
+//			ll.add(num);
+//			return;
+//		Sum_Root_To_Leaf_Numbers(node.left, num, ll);
+//		Sum_Root_To_Leaf_Numbers(node.right, num, ll);
+//	}
+
+	public static int Sum_Root_To_Leaf_Numbers(TreeNode node, int num) {
 		if (node == null) {
-			return;
+			return 0;
 		}
-		num *= 10;
-		num += node.val;
 		if (node.left == null && node.right == null) {
-			ll.add(num);
-			return;
+			return num * 10 + node.val;
 		}
-		Sum_Root_To_Leaf_Numbers(node.left, num, ll);
-		Sum_Root_To_Leaf_Numbers(node.right, num, ll);
+		int l = Sum_Root_To_Leaf_Numbers(node.left, num * 10 + node.val);
+		int r = Sum_Root_To_Leaf_Numbers(node.right, num * 10 + node.val);
+		return l + r;
 	}
-	
+
 }
