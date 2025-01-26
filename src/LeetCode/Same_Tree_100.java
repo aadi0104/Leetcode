@@ -21,7 +21,7 @@ public class Same_Tree_100 {
 		}
 	}
 
-	public static boolean main(String[] args) {
+	public boolean main(String[] args) {
 		TreeNode p = new TreeNode();
 		TreeNode q = new TreeNode();
 		return Same_Tree(p, q);
@@ -31,15 +31,13 @@ public class Same_Tree_100 {
 		if (p == null && q == null) {
 			return true;
 		}
-		if (p == null && q != null) {
-			return false;
-		}
-		if (q == null && p != null) {
+		if (p == null || q == null) {
 			return false;
 		}
 		if (p.val != q.val) {
 			return false;
 		}
+
 		boolean l = Same_Tree(p.left, q.left);
 		boolean r = Same_Tree(p.right, q.right);
 
