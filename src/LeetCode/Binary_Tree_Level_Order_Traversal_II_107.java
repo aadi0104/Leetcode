@@ -23,7 +23,7 @@ public class Binary_Tree_Level_Order_Traversal_II_107 {
 		}
 	}
 
-	public static List<List<Integer>> main(String[] args) {
+	public List<List<Integer>> main(String[] args) {
 		TreeNode root = new TreeNode();
 		return Binary_Tree_Level_Order_Traversal_II(root);
 	}
