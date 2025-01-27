@@ -11,7 +11,7 @@ public class Delete_Node_In_A_Linked_List_237 {
 		}
 	}
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		ListNode node = new ListNode();
 		Delete_Node_In_A_Linked_List(node);
 	}
