@@ -23,7 +23,7 @@ public class Binary_Tree_Postorder_Traversal_145 {
 		}
 	}
 
-	public static List<Integer> main(String[] args) {
+	public List<Integer> main(String[] args) {
 		TreeNode root = new TreeNode();
 		List<Integer> ans = new ArrayList<>();
 		Binary_Tree_Postorder_Traversal(root, ans);
