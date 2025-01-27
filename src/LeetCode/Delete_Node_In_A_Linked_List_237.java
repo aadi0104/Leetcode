@@ -12,7 +12,7 @@ public class Delete_Node_In_A_Linked_List_237 {
 	}
 
 	public void main(String[] args) {
-		ListNode node = new ListNode();
+		ListNode node = new ListNode(1);
 		Delete_Node_In_A_Linked_List(node);
 	}
 
