@@ -6,16 +6,21 @@ public class Intersection_Of_Two_Linked_Lists_160 {
 		int val;
 		ListNode next;
 
+		ListNode() {
+			val = 0;
+			next = null;
+		}
+
 		ListNode(int x) {
 			val = x;
 			next = null;
 		}
 	}
 
-	public static ListNode main(String[] args) {
+	public ListNode main(String[] args) {
 		ListNode headA = new ListNode();
 		ListNode headB = new ListNode();
-		Intersection_Of_Two_Linked_Lists(headA, headB);
+		return Intersection_Of_Two_Linked_Lists(headA, headB);
 	}
 
 	public static ListNode Intersection_Of_Two_Linked_Lists(ListNode headA, ListNode headB) {
@@ -35,5 +40,5 @@ public class Intersection_Of_Two_Linked_Lists_160 {
 		}
 		return l1;
 	}
-	
+
 }
