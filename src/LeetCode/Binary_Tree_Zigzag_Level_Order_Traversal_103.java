@@ -23,7 +23,7 @@ public class Binary_Tree_Zigzag_Level_Order_Traversal_103 {
 		}
 	}
 
-	public static List<List<Integer>> main(String[] args) {
+	public List<List<Integer>> main(String[] args) {
 		TreeNode root = new TreeNode();
 		return Binary_Tree_Zigzag_Level_Order_Traversal(root);
 	}
