@@ -6,13 +6,18 @@ public class Linked_List_Cycle_141 {
 		int val;
 		ListNode next;
 
+		ListNode() {
+			val = 0;
+			next = null;
+		}
+
 		ListNode(int x) {
 			val = x;
 			next = null;
 		}
 	}
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		ListNode head = new ListNode();
 		Linked_List_Cycle(head);
 	}
