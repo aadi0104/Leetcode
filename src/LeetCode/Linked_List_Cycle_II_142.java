@@ -1,10 +1,17 @@
 package LeetCode;
 
+import LeetCode.Linked_List_Cycle_141.ListNode;
+
 public class Linked_List_Cycle_II_142 {
 
 	class ListNode {
 		int val;
 		ListNode next;
+
+		ListNode() {
+			val = 0;
+			next = null;
+		}
 
 		ListNode(int x) {
 			val = x;
@@ -12,7 +19,7 @@ public class Linked_List_Cycle_II_142 {
 		}
 	}
 
-	public static ListNode main(String[] args) {
+	public ListNode main(String[] args) {
 		ListNode head = new ListNode();
 		if (head == null || head.next == null) {
 			return null;
