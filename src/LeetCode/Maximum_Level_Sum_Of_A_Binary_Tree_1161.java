@@ -23,7 +23,7 @@ public class Maximum_Level_Sum_Of_A_Binary_Tree_1161 {
 		}
 	}
 
-	public static int main(String[] args) {
+	public int main(String[] args) {
 		TreeNode root = new TreeNode();
 		return Maximum_Level_Sum_Of_A_Binary_Tree(root);
 	}
@@ -48,7 +48,7 @@ public class Maximum_Level_Sum_Of_A_Binary_Tree_1161 {
 				}
 			}
 			curr++;
-			if(sum > minimum) {
+			if (sum > minimum) {
 				minimum = sum;
 				row = curr;
 			}
