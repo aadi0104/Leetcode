@@ -10,6 +10,10 @@ public class Lowest_Common_Ancestor_Of_A_Binary_Tree_236 {
 		TreeNode(int x) {
 			val = x;
 		}
+
+		TreeNode() {
+			val = 0;
+		}
 	}
 
 	public TreeNode main(String[] args) {
