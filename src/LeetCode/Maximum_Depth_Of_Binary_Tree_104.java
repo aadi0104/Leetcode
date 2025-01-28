@@ -21,7 +21,7 @@ public class Maximum_Depth_Of_Binary_Tree_104 {
 		}
 	}
 
-	public static int main(String[] args) {
+	public int main(String[] args) {
 		TreeNode root = new TreeNode();
 		return Maximum_Depth_Of_Binary_Tree(root);
 	}
