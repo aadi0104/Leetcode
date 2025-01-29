@@ -21,7 +21,7 @@ public class Path_Sum_112 {
 		}
 	}
 
-	public static boolean main(String[] args) {
+	public boolean main(String[] args) {
 		TreeNode root = new TreeNode();
 		int targetSum = 22;
 		return Path_Sum(root, targetSum);
