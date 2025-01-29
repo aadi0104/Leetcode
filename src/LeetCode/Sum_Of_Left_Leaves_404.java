@@ -21,7 +21,7 @@ public class Sum_Of_Left_Leaves_404 {
 		}
 	}
 
-	public static int main(String[] args) {
+	public int main(String[] args) {
 		TreeNode root = new TreeNode();
 		return Sum_Of_Left_Leaves(root, false);
 	}
@@ -34,7 +34,7 @@ public class Sum_Of_Left_Leaves_404 {
 		int r = Sum_Of_Left_Leaves(node.right, false);
 		if (ln && node.left == null && node.right == null) {
 			return l + r + node.val;
-		}else {
+		} else {
 			return l + r;
 		}
 	}
