@@ -19,13 +19,13 @@ public class Rotate_List_61 {
 		}
 	}
 
-	public static void main(String[] args) {
+	public ListNode main(String[] args) {
 		ListNode head = new ListNode();
 		int k = 2;
 		if (head == null || k == 0 || head.next == null) {
 			return head;
 		}
-		Rotate_List(head, k);
+		return Rotate_List(head, k);
 	}
 
 	public static ListNode Rotate_List(ListNode head, int k) {
