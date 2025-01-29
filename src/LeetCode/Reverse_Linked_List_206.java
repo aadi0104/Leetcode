@@ -18,9 +18,9 @@ public class Reverse_Linked_List_206 {
 		}
 	}
 
-	public static void main(String[] args) {
+	public ListNode main(String[] args) {
 		ListNode head = new ListNode();
-		Reverse_Linked_List(head);
+		return Reverse_Linked_List(head);
 	}
 
 	public static ListNode Reverse_Linked_List(ListNode head) {
