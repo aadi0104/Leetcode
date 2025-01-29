@@ -23,7 +23,7 @@ public class Path_Sum_II_113 {
 		}
 	}
 
-	public static List<List<Integer>> main(String[] args) {
+	public List<List<Integer>> main(String[] args) {
 		TreeNode root = new TreeNode();
 		int targetSum = 22;
 		List<Integer> temp = new ArrayList<>();
