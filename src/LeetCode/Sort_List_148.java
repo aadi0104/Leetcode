@@ -24,7 +24,7 @@ public class Sort_List_148 {
 		return Sort_List(head);
 	}
 
-	public static ListNode Sort_List(ListNode head) {
+	public ListNode Sort_List(ListNode head) {
 		if (head != null || head.next != null) {
 			return head;
 		}
@@ -36,7 +36,7 @@ public class Sort_List_148 {
 		return Merge_List(A, B);
 	}
 
-	public static ListNode Merge_List(ListNode A, ListNode B) {
+	public ListNode Merge_List(ListNode A, ListNode B) {
 		ListNode dummy = new ListNode();
 		ListNode temp = dummy;
 		while (A != null && B != null) {
@@ -58,7 +58,7 @@ public class Sort_List_148 {
 		return dummy.next;
 	}
 
-	public static ListNode Middle_Of_The_List(ListNode head) {
+	public ListNode Middle_Of_The_List(ListNode head) {
 		ListNode slow = head;
 		ListNode fast = head;
 		while (fast.next != null && fast.next.next != null) {
