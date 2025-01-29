@@ -19,15 +19,15 @@ public class Sort_List_148 {
 		}
 	}
 
-	public static ListNode main(String[] args) {
+	public ListNode main(String[] args) {
 		ListNode head = new ListNode();
 		return Sort_List(head);
 	}
 
 	public static ListNode Sort_List(ListNode head) {
-		if(head != null || head.next != null){
-            return head;
-        }
+		if (head != null || head.next != null) {
+			return head;
+		}
 		ListNode mid = Middle_Of_The_List(head);
 		ListNode head2 = mid.next;
 		mid.next = null;
@@ -35,24 +35,24 @@ public class Sort_List_148 {
 		ListNode B = Sort_List(head2);
 		return Merge_List(A, B);
 	}
-	
+
 	public static ListNode Merge_List(ListNode A, ListNode B) {
 		ListNode dummy = new ListNode();
 		ListNode temp = dummy;
-		while(A != null && B != null) {
-			if(A.val < B.val) {
+		while (A != null && B != null) {
+			if (A.val < B.val) {
 				temp.next = A;
 				A = A.next;
-			}else {
+			} else {
 				temp.next = B;
 				B = B.next;
 			}
 			temp = temp.next;
 		}
-		if(A != null) {
+		if (A != null) {
 			temp.next = A;
 		}
-		if(B != null) {
+		if (B != null) {
 			temp.next = B;
 		}
 		return dummy.next;
