@@ -21,7 +21,7 @@ public class Root_Equals_Sum_Of_Children_2236 {
 		}
 	}
 
-	public static boolean main(String[] args) {
+	public boolean main(String[] args) {
 		TreeNode root = new TreeNode();
 		int ans = Root_Equals_Sum_Of_Children(root);
 		return (ans - root.val) == root.val;
