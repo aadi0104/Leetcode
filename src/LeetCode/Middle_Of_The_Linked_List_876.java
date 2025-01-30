@@ -19,7 +19,7 @@ public class Middle_Of_The_Linked_List_876 {
 		}
 	}
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		ListNode head = new ListNode();
 		Middle_Of_The_Linked_List(head);
 	}
