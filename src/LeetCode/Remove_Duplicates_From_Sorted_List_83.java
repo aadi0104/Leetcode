@@ -19,7 +19,7 @@ public class Remove_Duplicates_From_Sorted_List_83 {
 		}
 	}
 
-	public static ListNode main(String[] args) {
+	public ListNode main(String[] args) {
 		ListNode head = new ListNode();
 		return Remove_Duplicates_From_Sorted_List(head);
 	}
