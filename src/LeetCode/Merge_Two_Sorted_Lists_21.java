@@ -19,13 +19,13 @@ public class Merge_Two_Sorted_Lists_21 {
 		}
 	}
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		ListNode list1 = new ListNode();
 		ListNode list2 = new ListNode();
 		Merge_Two_Sorted_Lists(list1, list2);
 	}
 
-	public static ListNode Merge_Two_Sorted_Lists(ListNode list1, ListNode list2) {
+	public ListNode Merge_Two_Sorted_Lists(ListNode list1, ListNode list2) {
 		ListNode dummy = new ListNode();
 		ListNode temp = dummy;
 		while (list1 != null && list2 != null) {
@@ -38,10 +38,10 @@ public class Merge_Two_Sorted_Lists_21 {
 			}
 			temp = temp.next;
 		}
-		if(list1 != null) {
+		if (list1 != null) {
 			temp.next = list1;
 		}
-		if(list2 != null) {
+		if (list2 != null) {
 			temp.next = list2;
 		}
 		return dummy.next;
