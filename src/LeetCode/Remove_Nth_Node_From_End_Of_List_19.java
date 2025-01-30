@@ -21,13 +21,13 @@ public class Remove_Nth_Node_From_End_Of_List_19 {
 		}
 	}
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		ListNode head = new ListNode();
 		int n = 2;
 		Remove_Nth_Node_From_End_Of_List(head, n);
 	}
 
-	public static ListNode Remove_Nth_Node_From_End_Of_List(ListNode head, int n) {
+	public ListNode Remove_Nth_Node_From_End_Of_List(ListNode head, int n) {
 		ListNode dummy = new ListNode(0);
 		dummy.next = head;
 		ListNode fast = dummy;
