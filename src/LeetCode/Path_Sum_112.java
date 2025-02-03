@@ -38,5 +38,5 @@ public class Path_Sum_112 {
 		boolean right = Path_Sum(node.right, targetSum - node.val);
 		return left || right;
 	}
-
+	
 }
