@@ -1,7 +1,5 @@
 package LeetCode;
 
-import LeetCode.Linked_List_Cycle_141.ListNode;
-
 public class Linked_List_Cycle_II_142 {
 
 	class ListNode {
