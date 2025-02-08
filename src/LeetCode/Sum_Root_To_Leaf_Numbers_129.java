@@ -1,7 +1,5 @@
 package LeetCode;
 
-import java.util.*;
-
 public class Sum_Root_To_Leaf_Numbers_129 {
 	public class TreeNode {
 		int val;
