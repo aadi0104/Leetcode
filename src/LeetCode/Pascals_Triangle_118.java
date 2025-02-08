@@ -26,7 +26,6 @@ public class Pascals_Triangle_118 {
 				ncr = (i - j) * ncr / (j + 1);
 			}
 			list.add(innerList);
-			times++;
 		}
 		return list;
 	}
