@@ -1,7 +1,5 @@
 package LeetCode;
 
-import java.util.*;
-
 public class Remove_Nth_Node_From_End_Of_List_19 {
 
 	public class ListNode {
