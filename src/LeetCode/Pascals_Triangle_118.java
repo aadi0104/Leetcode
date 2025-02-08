@@ -1,4 +1,5 @@
 package LeetCode;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,7 +18,6 @@ public class Pascals_Triangle_118 {
 
 	public static List<List<Integer>> Pascals_Triangle(int numRows) {
 		List<List<Integer>> list = new ArrayList<List<Integer>>();
-		int times = 1;
 		for (int i = 0; i < numRows; i++) {
 			List<Integer> innerList = new ArrayList<Integer>();
 			int ncr = 1;
@@ -30,5 +30,5 @@ public class Pascals_Triangle_118 {
 		}
 		return list;
 	}
-	
+
 }
