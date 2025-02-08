@@ -1,5 +1,4 @@
 package LeetCode;
-import java.util.*;
 
 public class Valid_Palindrome_125 {
 
@@ -29,5 +28,5 @@ public class Valid_Palindrome_125 {
 		}
 		return true;
 	}
-	
+
 }
