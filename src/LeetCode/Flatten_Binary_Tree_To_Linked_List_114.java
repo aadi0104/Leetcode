@@ -46,5 +46,5 @@ public class Flatten_Binary_Tree_To_Linked_List_114 {
 			temp = temp.right;
 		}
 	}
-
+	
 }
