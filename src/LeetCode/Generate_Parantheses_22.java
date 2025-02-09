@@ -22,5 +22,5 @@ public class Generate_Parantheses_22 {
 		Generate_Parantheses(n, open + 1, closed, ans + "(", s);
 		Generate_Parantheses(n, open, closed + 1, ans + ")", s);
 	}
-	
+
 }
