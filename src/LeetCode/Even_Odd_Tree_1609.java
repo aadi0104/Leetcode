@@ -28,7 +28,7 @@ public class Even_Odd_Tree_1609 {
 		return Even_Odd_Tree(root);
 	}
 
-	public static boolean Even_Odd_Tree(TreeNode root) {
+	public boolean Even_Odd_Tree(TreeNode root) {
 		Queue<TreeNode> que = new LinkedList<>();
 		if (root == null) {
 			return false;
