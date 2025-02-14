@@ -24,5 +24,5 @@ public class Combinations_77 {
 			temp.remove(temp.size() - 1);
 		}
 	}
-	
+
 }
