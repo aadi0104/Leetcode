@@ -28,5 +28,5 @@ public class Palindromic_Substrings_647 {
 		}
 		return odd + even;
 	}
-
+	
 }
