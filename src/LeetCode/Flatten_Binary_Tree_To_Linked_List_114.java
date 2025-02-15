@@ -1,7 +1,5 @@
 package LeetCode;
 
-import java.util.*;
-
 public class Flatten_Binary_Tree_To_Linked_List_114 {
 	public class TreeNode {
 		int val;
