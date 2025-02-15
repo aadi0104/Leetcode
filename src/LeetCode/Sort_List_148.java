@@ -25,9 +25,9 @@ public class Sort_List_148 {
 	}
 
 	public ListNode Sort_List(ListNode head) {
-		if (head != null || head.next != null) {
-			return head;
-		}
+//		if (head != null || head.next != null) {
+//			return head;
+//		}
 		ListNode mid = Middle_Of_The_List(head);
 		ListNode head2 = mid.next;
 		mid.next = null;
