@@ -47,5 +47,5 @@ public class Merge_K_Sorted_Lists_23 {
 		}
 		return dummy.next;
 	}
-
+	
 }
