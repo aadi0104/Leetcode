@@ -26,4 +26,24 @@ public class Two_Sum_1 {
 		return ans;
 	}
 
+//	For Boolean Answer
+//	public static int[] Two_Sum(int[] nums, int target) {
+//		int[] ans = new int[2];
+//		int low = 0;
+//		int high = nums.length - 1;
+//		Arrays.sort(nums);
+//		while (low <= high) {
+//			if (nums[low] + nums[high] < target) {
+//				low++;
+//			} else if (nums[low] + nums[high] > target) {
+//				high--;
+//			} else {
+//				ans[0] = low;
+//				ans[1] = high;
+//				break;
+//			}
+//		}
+//		return ans;
+//	}
+
 }
