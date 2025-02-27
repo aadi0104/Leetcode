@@ -27,4 +27,5 @@ public class Valid_Perfect_Square_367 {
 		}
 		return false;
 	}
+	
 }
