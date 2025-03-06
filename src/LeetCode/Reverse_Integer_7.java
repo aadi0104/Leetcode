@@ -21,5 +21,5 @@ public class Reverse_Integer_7 {
 		}
 		return Reverse_Integer(x / 10, newRev);
 	}
-	
+
 }
