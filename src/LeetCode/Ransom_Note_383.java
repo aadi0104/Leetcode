@@ -32,5 +32,5 @@ public class Ransom_Note_383 {
 		sb.deleteCharAt(i);
 		return sb.toString();
 	}
-
+	
 }
