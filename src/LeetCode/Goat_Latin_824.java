@@ -47,4 +47,5 @@ public class Goat_Latin_824 {
 		}
 		return false;
 	}
+	
 }
