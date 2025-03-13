@@ -26,5 +26,5 @@ public class Lexicographical_Number_386 {
 			Lexicographical_Number(n, curr * 10 + i, list);
 		}
 	}
-	
+
 }
