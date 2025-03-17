@@ -22,7 +22,6 @@ public class Average_Of_Levels_In_Binary_Tree_637 {
 			this.right = right;
 		}
 	}
-
 	public List<Double> main(String[] args) {
 		TreeNode root = new TreeNode();
 		return Average_Of_Levels_In_Binary_Tree(root);
