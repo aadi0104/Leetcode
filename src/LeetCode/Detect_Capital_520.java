@@ -37,5 +37,5 @@ public class Detect_Capital_520 {
 			return true;
 		}
 	}
-	
+
 }
