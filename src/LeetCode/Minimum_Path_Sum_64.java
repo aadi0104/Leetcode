@@ -10,11 +10,11 @@ public class Minimum_Path_Sum_64 {
 	}
 
 	public static int Minimum_Path_Sum(int[][] grid, int i, int j, int[][] dp) {
+		if (i == grid.length - 1 && j == grid[0].length - 1) {
+			return grid[i][j];
+		}
 		if (i == grid.length || j == grid[0].length) {
 			return Integer.MAX_VALUE;
-		}
-		if (i == grid.length - 1 && j == grid[0].length - 1) {
-			return dp[i][j] = grid[i][j];
 		}
 		if (dp[i][j] != 0) {
 			return dp[i][j];
