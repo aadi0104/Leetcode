@@ -70,5 +70,5 @@ public class Replace_Words_648 {
 		String result = trie.Replace_Words(dictionary, sentence);
 		System.out.println(result);
 	}
-
+	
 }
