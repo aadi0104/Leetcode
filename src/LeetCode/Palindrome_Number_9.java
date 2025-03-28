@@ -17,4 +17,5 @@ public class Palindrome_Number_9 {
 		}
 		return Palindrome_Number(x / 10, rev * 10 + x % 10);
 	}
+	
 }
