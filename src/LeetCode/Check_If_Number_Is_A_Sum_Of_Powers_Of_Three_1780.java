@@ -17,5 +17,5 @@ public class Check_If_Number_Is_A_Sum_Of_Powers_Of_Three_1780 {
 		}
 		return true;
 	}
-	
+
 }
