@@ -41,5 +41,5 @@ public class Construct_String_From_Binary_Tree_606 {
 		Construct_String_From_Binary_Tree(node.right);
 		ans += ")";
 	}
-	
+
 }
