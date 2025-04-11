@@ -63,5 +63,5 @@ public class Course_Schedule_207 {
 		}
 		return c != map.size();
 	}
-	
+
 }
