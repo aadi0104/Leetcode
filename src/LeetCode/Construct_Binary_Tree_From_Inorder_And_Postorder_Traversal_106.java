@@ -47,5 +47,5 @@ public class Construct_Binary_Tree_From_Inorder_And_Postorder_Traversal_106 {
         }
         return -1;
     }
-    
+   
 }
