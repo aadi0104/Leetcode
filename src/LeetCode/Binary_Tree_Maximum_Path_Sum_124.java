@@ -58,5 +58,5 @@ public class Binary_Tree_Maximum_Path_Sum_124 {
 		ans = Math.max(ans, temp);
 		return root.val + Math.max(l, r);
 	}
-
+	
 }
