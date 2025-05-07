@@ -39,7 +39,7 @@ public class Is_Graph_Bipartite_785 {
 		}
 		return true;
 	}
-	
+
 }
 
 class BipartitePairs {
