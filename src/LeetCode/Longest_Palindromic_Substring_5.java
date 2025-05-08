@@ -37,5 +37,5 @@ public class Longest_Palindromic_Substring_5 {
 		}
 		return max_str;
 	}
-
+	
 }
