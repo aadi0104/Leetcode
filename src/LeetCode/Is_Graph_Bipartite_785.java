@@ -50,4 +50,5 @@ class BipartitePairs {
 		this.vtx = vtx;
 		this.dis = dis;
 	}
+	
 }
