@@ -67,5 +67,5 @@ public class Sort_List_148 {
 		}
 		return slow;
 	}
-	
+
 }
