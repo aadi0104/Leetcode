@@ -36,5 +36,5 @@ public class Next_Greater_Element_I_496 {
 		}
 		return nums2[st.peek()];
 	}
-
+	
 }
