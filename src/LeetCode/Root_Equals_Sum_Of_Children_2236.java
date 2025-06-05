@@ -35,5 +35,5 @@ public class Root_Equals_Sum_Of_Children_2236 {
 		int r = Root_Equals_Sum_Of_Children(node.right);
 		return l + r + node.val;
 	}
-	
+
 }
