@@ -27,5 +27,5 @@ public class Letter_Tile_Possibilities_1079 {
 			}
 		}
 	}
-	
+
 }
