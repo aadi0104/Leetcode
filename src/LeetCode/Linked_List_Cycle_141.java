@@ -34,5 +34,5 @@ public class Linked_List_Cycle_141 {
 		}
 		return false;
 	}
-	
+
 }
