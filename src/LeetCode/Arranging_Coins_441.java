@@ -22,5 +22,5 @@ public class Arranging_Coins_441 {
 		}
 		return (int) low - 1;
 	}
-	
+
 }
