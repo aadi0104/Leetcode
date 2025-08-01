@@ -23,5 +23,5 @@ public class Maximum_Average_Subarray_I_643 {
 		}
 		return ans / k;
 	}
-
+	
 }
