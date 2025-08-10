@@ -29,5 +29,5 @@ public class Triangle_120 {
 		int second = Triangle(triangle, i + 1, j + 1, dp);
 		return dp[i][j] = triangle.get(i).get(j) + Math.min(first, second);
 	}
-	
+
 }
