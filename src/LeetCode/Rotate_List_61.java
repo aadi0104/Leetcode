@@ -56,5 +56,5 @@ public class Rotate_List_61 {
 		}
 		return count;
 	}
-
+	
 }
