@@ -33,5 +33,5 @@ public class To_Lower_Case_709 {
 		String s = new String(ch);
 		return s;
 	}
-	
+
 }
