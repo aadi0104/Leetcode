@@ -86,5 +86,5 @@ class RegionPair {
 		this.row = row;
 		this.col = col;
 	}
-
+	
 }
