@@ -32,5 +32,5 @@ public class Minimum_Falling_Path_Sum_931 {
 		int bottom = Minimum_Falling_Path_Sum(matrix, r + 1, c, dp);
 		return dp[r][c] = matrix[r][c] + Math.min(Math.min(rightdiagonal, leftdiagonal), bottom);
 	}
-
+	
 }
