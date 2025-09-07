@@ -23,5 +23,5 @@ public class Minimum_Path_Sum_64 {
 		int right = Minimum_Path_Sum(grid, i, j + 1, dp);
 		return dp[i][j] = grid[i][j] + Math.min(down, right);
 	}
-	
+
 }
