@@ -55,5 +55,5 @@ public class Sum_Root_To_Leaf_Numbers_129 {
 		int r = Sum_Root_To_Leaf_Numbers(node.right, num * 10 + node.val);
 		return l + r;
 	}
-	
+
 }
