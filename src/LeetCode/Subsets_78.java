@@ -23,5 +23,5 @@ public class Subsets_78 {
 			temp.remove(temp.size() - 1);
 		}
 	}
-	
+
 }
