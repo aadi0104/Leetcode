@@ -30,5 +30,5 @@ public class First_Bad_Version_278 {
 		 */
 		return true;
 	}
-	
+
 }
