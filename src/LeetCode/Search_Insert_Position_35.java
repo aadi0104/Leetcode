@@ -24,5 +24,5 @@ public class Search_Insert_Position_35 {
 		}
 		return low;
 	}
-
+	
 }
