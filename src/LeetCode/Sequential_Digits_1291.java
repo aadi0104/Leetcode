@@ -26,5 +26,5 @@ public class Sequential_Digits_1291 {
 		ans += num;
 		Sequential_Digits(low, high, ans, num + 1, ll);
 	}
-	
+
 }
