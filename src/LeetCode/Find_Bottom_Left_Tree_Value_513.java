@@ -42,5 +42,5 @@ public class Find_Bottom_Left_Tree_Value_513 {
 			ans = root.val;
 		}
 	}
-	
+
 }
