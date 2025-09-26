@@ -36,5 +36,4 @@ public class Guess_Number_Higher_Or_Lower_374 {
 		}
 		return ans;
 	}
-	
 }
