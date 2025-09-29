@@ -24,5 +24,4 @@ public class Binary_Search_704 {
 		}
 		return -1;
 	}
-	
 }
