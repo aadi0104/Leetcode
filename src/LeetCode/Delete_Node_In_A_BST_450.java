@@ -54,5 +54,4 @@ public class Delete_Node_In_A_BST_450 {
 		int r = min(root.left);
 		return Math.min(root.val, r);
 	}
-
 }
