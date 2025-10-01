@@ -24,5 +24,4 @@ public class Majority_Element_169 {
 		}
 		return maxx;
 	}
-
 }
