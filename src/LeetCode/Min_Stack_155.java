@@ -30,6 +30,7 @@ public class Min_Stack_155 {
 		return st.peek();
 	}
 
+
 	public int getMin() {
 		return min.peek();
 	}
