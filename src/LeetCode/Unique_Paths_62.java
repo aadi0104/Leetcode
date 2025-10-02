@@ -24,5 +24,4 @@ public class Unique_Paths_62 {
 		int down = Unique_Paths(m, n, i + 1, j, dp);
 		return dp[i][j] = right + down;
 	}
-	
 }
