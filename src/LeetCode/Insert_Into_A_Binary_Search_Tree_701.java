@@ -38,5 +38,4 @@ public class Insert_Into_A_Binary_Search_Tree_701 {
 		}
 		return root;
 	}
-
 }
