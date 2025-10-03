@@ -35,5 +35,4 @@ public class Invert_Binary_Tree_226 {
 		root.right = temp;
 		return root;
 	}
-	
 }
