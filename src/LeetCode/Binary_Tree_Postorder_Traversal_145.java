@@ -38,5 +38,4 @@ public class Binary_Tree_Postorder_Traversal_145 {
 		Binary_Tree_Postorder_Traversal(node.right, ans);
 		ans.add(node.val);
 	}
-
 }
