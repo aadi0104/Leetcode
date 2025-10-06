@@ -32,5 +32,4 @@ public class Minimum_Falling_Path_Sum_II_1289 {
 		}
 		return dp[r][c] = grid[r][c] + ans;
 	}
-	
 }
