@@ -38,5 +38,4 @@ public class Sum_Of_Left_Leaves_404 {
 			return l + r;
 		}
 	}
-
 }
