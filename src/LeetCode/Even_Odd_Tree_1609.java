@@ -56,5 +56,4 @@ public class Even_Odd_Tree_1609 {
 		}
 		return true;
 	}
-
 }
