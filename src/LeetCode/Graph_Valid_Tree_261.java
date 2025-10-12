@@ -56,5 +56,4 @@ public class Graph_Valid_Tree_261 {
 		}
 		return c == 1;
 	}
-	
 }
