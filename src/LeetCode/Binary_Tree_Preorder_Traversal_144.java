@@ -38,5 +38,4 @@ public class Binary_Tree_Preorder_Traversal_144 {
 		Binary_Tree_Preorder_Traversal(node.left, ans);
 		Binary_Tree_Preorder_Traversal(node.right, ans);
 	}
-
 }
