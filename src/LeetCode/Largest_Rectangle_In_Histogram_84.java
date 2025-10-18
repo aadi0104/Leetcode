@@ -38,6 +38,4 @@ public class Largest_Rectangle_In_Histogram_84 {
 		}
 		return ans;
 	}
-
-
 }
