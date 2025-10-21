@@ -14,5 +14,4 @@ public class Single_Number_136 {
 		}
 		return ans;
 	}
-	
 }
