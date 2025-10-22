@@ -28,5 +28,4 @@ public class Permutations_II_47 {
 			}
 		}
 	}
-	
 }
