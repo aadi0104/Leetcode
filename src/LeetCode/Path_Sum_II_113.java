@@ -49,5 +49,4 @@ public class Path_Sum_II_113 {
 		Path_Sum_II(node.right, targetSum - node.val, temp, ans);
 		temp.remove(temp.size() - 1);
 	}
-
 }
