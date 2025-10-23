@@ -19,5 +19,4 @@ public class Counting_Words_With_A_Given_Prefix_2185 {
 		}
 		return count;
 	}
-
 }
