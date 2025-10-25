@@ -40,5 +40,4 @@ public class Lowest_Common_Ancestor_Of_A_Binary_Tree_236 {
 			return r;
 		}
 	}
-
 }
