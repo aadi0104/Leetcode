@@ -40,5 +40,4 @@ public class Group_Anagrams_49 {
 		}
 		return sb.toString();
 	}
-	
 }
