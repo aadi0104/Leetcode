@@ -34,5 +34,4 @@ public class Maximum_Depth_Of_Binary_Tree_104 {
 		int r = Maximum_Depth_Of_Binary_Tree(node.right);
 		return Math.max(l, r) + 1;
 	}
-	
 }
