@@ -30,5 +30,4 @@ public class Longest_Consecutive_Sequence_128 {
 		}
 		return ans;
 	}
-
 }
