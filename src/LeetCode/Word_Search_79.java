@@ -34,5 +34,4 @@ public class Word_Search_79 {
 		Word_Search(board, word, cr, cc + 1, ans + board[cr][cc], check_board); // Right
 		check_board[cr][cc] = 0;
 	}
-
 }
