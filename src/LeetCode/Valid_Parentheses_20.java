@@ -34,5 +34,4 @@ public class Valid_Parentheses_20 {
 		}
 		return false;
 	}
-
 }
