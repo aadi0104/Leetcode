@@ -55,5 +55,4 @@ public class Design_Add_And_Search_Words_Data_Structure_211 {
 			return searchHelper(word, index + 1, curr.child.get(ch));
 		}
 	}
-	
 }
