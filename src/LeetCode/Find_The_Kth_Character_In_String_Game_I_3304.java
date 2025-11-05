@@ -25,4 +25,5 @@ public class Find_The_Kth_Character_In_String_Game_I_3304 {
 		}
 		return s;
 	}
+
 }
