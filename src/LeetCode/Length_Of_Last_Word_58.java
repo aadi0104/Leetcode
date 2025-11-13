@@ -13,4 +13,5 @@ public class Length_Of_Last_Word_58 {
 		String[] arr = s.split(" +");
 		return arr[arr.length - 1].length();
 	}
+
 }
