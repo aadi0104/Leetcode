@@ -22,4 +22,5 @@ public class Counting_Bits_338 {
 			arr[i] = cnt;
 		}
 	}
+
 }
