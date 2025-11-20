@@ -44,4 +44,5 @@ public class Validate_Binary_Search_Tree_98 {
 		Long min = Long.MAX_VALUE;
 		Long max = Long.MIN_VALUE;
 	}
+
 }
