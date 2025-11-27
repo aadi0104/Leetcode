@@ -36,4 +36,5 @@ public class Baseball_Game_682 {
 		}
 		return sum;
 	}
+
 }
