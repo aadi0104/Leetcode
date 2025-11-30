@@ -44,5 +44,4 @@ public class Flip_Equivalent_Binary_Trees_951 {
 
 		return flip || equal;
 	}
-	
 }
