@@ -27,5 +27,6 @@ public class Permutations_II_47 {
 				temp.remove(temp.size() - 1);
 			}
 		}
+
 	}
 }
