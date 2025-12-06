@@ -26,5 +26,4 @@ public class Sqrtx_69 {
 		}
 		return ans;
 	}
-	
 }
