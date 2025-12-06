@@ -28,5 +28,4 @@ public class Student_Attendance_Record_551 {
 		}
 		return true;
 	}
-	
 }
