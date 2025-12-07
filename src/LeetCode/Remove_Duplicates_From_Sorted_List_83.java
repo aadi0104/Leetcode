@@ -42,5 +42,4 @@ public class Remove_Duplicates_From_Sorted_List_83 {
 		}
 		return head;
 	}
-
 }
