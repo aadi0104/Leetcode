@@ -70,4 +70,5 @@ public class N_Queens_II_52 {
 		}
 		return true;
 	}
+
 }
