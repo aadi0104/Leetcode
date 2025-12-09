@@ -64,5 +64,4 @@ public class Sudoku_Solver_37 {
 		}
 		return true;
 	}
-
 }
