@@ -29,5 +29,4 @@ public class Count_Primes_204 {
 		}
 		return count;
 	}
-
 }
