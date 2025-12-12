@@ -66,5 +66,4 @@ public class Diameter_Of_Binary_Tree_543 {
 		int dia = 0;
 
 	}
-
 }
