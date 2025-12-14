@@ -30,4 +30,5 @@ public class Construct_Smallest_Number_From_DI_String_2375 {
 		}
 		return ans;
 	}
+
 }
