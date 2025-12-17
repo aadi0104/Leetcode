@@ -55,5 +55,4 @@ public class Maximum_Level_Sum_Of_A_Binary_Tree_1161 {
 		}
 		return row;
 	}
-
 }
