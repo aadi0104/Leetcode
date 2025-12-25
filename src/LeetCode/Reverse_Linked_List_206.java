@@ -37,5 +37,4 @@ public class Reverse_Linked_List_206 {
 		front.next = head;
 		head.next = null;
 	}
-
 }
