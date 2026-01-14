@@ -1,7 +1,6 @@
 package LeetCode;
 
 public class Sqrtx_69 {
-
 	public static void main(String[] args) {
 		int x = 8;
 		int ans = Sqrt(x);
