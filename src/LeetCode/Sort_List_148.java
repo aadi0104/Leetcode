@@ -1,5 +1,4 @@
 package LeetCode;
-
 public class Sort_List_148 {
 
 	public class ListNode {
