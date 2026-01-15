@@ -1,5 +1,4 @@
 package LeetCode;
-
 import java.util.Arrays;
 
 public class House_Robber_198 {
