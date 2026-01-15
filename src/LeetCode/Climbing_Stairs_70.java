@@ -1,5 +1,4 @@
 package LeetCode;
-
 public class Climbing_Stairs_70 {
 
 	public static void main(String[] args) {
