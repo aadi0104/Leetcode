@@ -1,5 +1,4 @@
 package LeetCode;
-
 public class Maximum_Score_After_Splitting_A_String_1422 {
 	public static int maxx = 0;
 
