@@ -1,5 +1,4 @@
 package LeetCode;
-
 public class Kth_Smallest_Element_In_A_BST_230 {
 
 	public class TreeNode {
