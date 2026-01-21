@@ -1,5 +1,4 @@
 package LeetCode;
-
 import java.util.*;
 
 public class Construct_Smallest_Number_From_DI_String_2375 {
