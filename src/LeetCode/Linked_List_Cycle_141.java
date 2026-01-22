@@ -1,5 +1,4 @@
 package LeetCode;
-
 public class Linked_List_Cycle_141 {
 
 	class ListNode {
