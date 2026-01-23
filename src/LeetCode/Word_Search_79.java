@@ -1,5 +1,4 @@
 package LeetCode;
-
 public class Word_Search_79 {
 
 	static boolean check = false;
