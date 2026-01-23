@@ -47,3 +47,4 @@ public class Unique_Morse_Code_Words_804 {
 		return 1;
 	}
 }
+
