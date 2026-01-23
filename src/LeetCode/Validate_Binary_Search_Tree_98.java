@@ -1,5 +1,4 @@
 package LeetCode;
-
 public class Validate_Binary_Search_Tree_98 {
 
 	public class TreeNode {
