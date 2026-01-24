@@ -38,5 +38,4 @@ public class Rotate_String_796 {
 		String str = new String(ch);
 		return str;
 	}
-
 }
