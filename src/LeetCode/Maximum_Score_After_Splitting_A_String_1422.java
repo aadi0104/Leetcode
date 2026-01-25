@@ -37,5 +37,4 @@ public class Maximum_Score_After_Splitting_A_String_1422 {
 		}
 		return zeroes;
 	}
-
 }
