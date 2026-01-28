@@ -20,5 +20,4 @@ public class Power_Of_Two_231 {
 		}
 		return Power_Of_Two(n / 2);
 	}
-
 }
