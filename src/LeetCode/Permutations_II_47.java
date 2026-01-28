@@ -1,5 +1,4 @@
 package LeetCode;
-
 import java.util.*;
 
 public class Permutations_II_47 {
