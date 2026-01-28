@@ -22,5 +22,4 @@ public class Target_Sum_494 {
 		Target_Sum(nums, target, idx + 1, sum + nums[idx]);
 		Target_Sum(nums, target, idx + 1, sum - nums[idx]);
 	}
-
 }
