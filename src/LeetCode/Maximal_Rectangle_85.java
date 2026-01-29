@@ -1,5 +1,4 @@
 package LeetCode;
-
 import java.util.*;
 
 public class Maximal_Rectangle_85 {
