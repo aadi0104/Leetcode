@@ -1,5 +1,4 @@
 package LeetCode;
-
 public class Maximum_Depth_Of_Binary_Tree_104 {
 
 	public class TreeNode {
