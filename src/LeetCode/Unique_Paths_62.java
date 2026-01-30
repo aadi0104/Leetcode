@@ -25,4 +25,3 @@ public class Unique_Paths_62 {
 		return dp[i][j] = right + down;
 	}
 }
-
