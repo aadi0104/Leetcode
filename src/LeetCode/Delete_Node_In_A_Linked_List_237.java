@@ -26,5 +26,4 @@ public class Delete_Node_In_A_Linked_List_237 {
 			}
 		}
 	}
-
 }
