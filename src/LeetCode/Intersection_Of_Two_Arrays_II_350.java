@@ -1,5 +1,4 @@
 package LeetCode;
-
 import java.util.*;
 
 public class Intersection_Of_Two_Arrays_II_350 {
