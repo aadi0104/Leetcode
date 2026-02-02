@@ -1,5 +1,4 @@
 package LeetCode;
-
 import java.util.*;
 
 public class Implement_Trie_208 {
