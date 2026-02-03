@@ -1,5 +1,4 @@
 package LeetCode;
-
 import java.util.*;
 
 public class Baseball_Game_682 {
@@ -36,5 +35,4 @@ public class Baseball_Game_682 {
 		}
 		return sum;
 	}
-
 }
