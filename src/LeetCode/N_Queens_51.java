@@ -71,3 +71,4 @@ public class N_Queens_51 {
 		return true;
 	}
 }
+
